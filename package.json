@@ -1,7 +1,7 @@
 {
   "name": "git-branch-archive",
   "version": "0.0.1",
-  "description": "Nodejs script to archive branches that are merged.This is done by tagging them as archive/<branchname> and removing them both locally and remotely. Before each operation, the user is asked for confirmation.",
+  "description": "Nodejs script to archive branches.This is done by tagging them as archive/<branchname> and removing them both locally and remotely. Before each operation, the user is asked for confirmation.",
   "main": "index.js",
   "bin": {
     "gitarc": "./index.js"
