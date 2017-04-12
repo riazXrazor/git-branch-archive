@@ -1,5 +1,5 @@
 {
-  "name": "git-archive",
+  "name": "git-branch-archive",
   "version": "0.0.1",
   "description": "Nodejs script to archive branches that are merged.This is done by tagging them as archive/<branchname> and removing them both locally and remotely. Before each operation, the user is asked for confirmation.",
   "main": "index.js",
@@ -12,10 +12,10 @@
   "repository" :
   {
     "type" : "git",
-    "url" : "https://github.com/riazXrazor/git-archive.git"
+    "url" : "https://github.com/riazXrazor/git-branch-archive.git"
   },
   "author": "Riaz Ali Laskar",
-  "url" : "https://github.com/riazXrazor/git-archive/issues",
+  "url" : "https://github.com/riazXrazor/git-branch-archive/issues",
   "email" : "riazcool77@gmail.com",
   "license": "ISC",
   "dependencies": {

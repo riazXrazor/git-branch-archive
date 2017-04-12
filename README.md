@@ -5,7 +5,7 @@ When working on a project, the number of branches tend to increase linearly with
 
 ### Installation
 ```
-npm install git-archive -g
+npm install git-branch-archive -g
 ```
 
 ### Version
