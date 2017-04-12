@@ -12,10 +12,10 @@
   "repository" :
   {
     "type" : "git",
-    "url" : ""
+    "url" : "https://github.com/riazXrazor/git-archive.git"
   },
   "author": "Riaz Ali Laskar",
-  "url" : "",
+  "url" : "https://github.com/riazXrazor/git-archive/issues",
   "email" : "riazcool77@gmail.com",
   "license": "ISC",
   "dependencies": {
