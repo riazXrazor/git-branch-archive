@@ -13,7 +13,7 @@ npm install git-archive -g
 
 ### Usage
 
-Simply call `gitrac` from the command in a git maintained project.
+Simply call `gitarc` from the command in a git maintained project.
 
 
 ### Feedback
