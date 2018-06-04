@@ -1,7 +1,7 @@
 {
   "name": "git-branch-archive",
-  "version": "0.0.1",
-  "description": "Nodejs script to archive branches.This is done by tagging them as archive/<branchname> and removing them both locally and remotely. Before each operation, the user is asked for confirmation.",
+  "version": "0.0.2",
+  "description": "Nodejs script to archive branches. This is done by tagging them as archive/<branchname> and removing them both locally and (optionally) remotely. Before each operation, the user is asked for confirmation.",
   "main": "index.js",
   "bin": {
     "gitarc": "./index.js"
@@ -9,18 +9,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository" :
-  {
-    "type" : "git",
-    "url" : "https://github.com/riazXrazor/git-branch-archive.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/riazXrazor/git-branch-archive.git"
   },
   "author": "Riaz Ali Laskar",
-  "url" : "https://github.com/riazXrazor/git-branch-archive/issues",
-  "email" : "riazcool77@gmail.com",
+  "url": "https://github.com/riazXrazor/git-branch-archive/issues",
+  "email": "riazcool77@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "shelljs" : "^0.7.7",
-    "chalk": "^1.1.3",
-    "inquirer": "^2.0.0"
+    "shelljs": "^0.8.2",
+    "chalk": "^2.4.1",
+    "inquirer": "^6.0.0"
   }
 }
